@@ -1,3 +1,4 @@
+# Project1_GEOG4057
 Project: Import and Visualize 2018 New Orleans Land Value Data
 Overview
 This project provides a Python script to import a JSON file containing 2018 Land Value data for New Orleans into a shapefile and visualize it using ArcGIS Pro. The script handles the conversion of geometries in WKT format and attributes from the JSON file into a feature class.
@@ -16,7 +17,7 @@ Script Example
 
 
 
-# Project1_GEOG4057
+
 Project: Import and Visualize 2018 New Orleans Land Value Data
 Overview
 
