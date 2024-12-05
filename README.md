@@ -5,13 +5,13 @@ This project provides a Python script to import a JSON file containing 2018 Land
 
 Script Description
 The script, importNoTaxJSON, performs the following tasks:
+1-Reads the JSON file (no_tax.json).
+2-Converts geometries from WKT format.
+3-Creates a feature class with appropriate fields.
+4-Writes data from the JSON file to the feature class.
+5-Provides an ArcGIS Pro interface for file selection and shapefile naming.
 
-Reads the JSON file (no_tax.json).
-Converts geometries from WKT format.
-Creates a feature class with appropriate fields.
-Writes data from the JSON file to the feature class.
-Provides an ArcGIS Pro interface for file selection and shapefile naming.
 How to Use
-Ensure you have ArcGIS Pro and arcpy installed.
-Place the JSON file (no_tax.json) in your workspace directory.
-Run the script with the output shapefile name as an argument.
+1-Ensure you have ArcGIS Pro and arcpy installed.
+2-Place the JSON file (no_tax.json) in your workspace directory.
+3-Run the script with the output shapefile name as an argument.
